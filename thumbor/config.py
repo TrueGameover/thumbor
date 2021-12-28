@@ -777,6 +777,10 @@ Config.define(
     "Compatibility",
 )
 
+Config.define(
+    'ACCESS_CONTROL_ALLOW_ORIGIN_HEADER', False,
+    'Sends Access-Control-Allow-Origin header'
+)
 
 def generate_config():
     config.generate_config()
